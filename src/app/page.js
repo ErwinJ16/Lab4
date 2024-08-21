@@ -1,8 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Navbar from "./components/navbar";
+
 export default function Home() {
 return (
 <main>
+<Navbar></Navbar>
 <header className={styles.header}>
 <div>
 <h1>
@@ -20,6 +23,11 @@ Hello
 </div>
 </header>
 <section className={styles.infoSection}>
+<img
+  src="image.jpg"
+  alt="Imagen"
+  className={styles.image}
+  />
 <div className={styles.infoContainer}>
 <span className={styles.title + "" + styles.yellowText}>Estefan</span>
 <br />
@@ -41,13 +49,6 @@ Hello
 </ul>
 </div>
 </div>
-</section>
-<section className={styles.infoSection}>
-  <img
-  src="/image.jpg"
-  alt="Imagen"
-  className={styles.image}
-  />
 </section>
 </main>
 );

@@ -49,7 +49,8 @@ padding-left: 20px; /* Sangría izquierda de 20px */}
 
 /* Estilo de los elementos de la lista */
 .infoContainer .list ul li {
-margin-bottom: 20px; /* Aumenta el espacio entre los elementos de la lista */ list-style: disc; /* Agrega viñetas a los elementos de la lista */}
+margin-bottom: 20px; /* Aumenta el espacio entre los elementos de la lista */ 
+list-style: disc; /* Agrega viñetas a los elementos de la lista */}
 
 .greyText{
   color: grey;
